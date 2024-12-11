@@ -7,7 +7,7 @@ import time
 
 # Setup WebDriver with options
 def setup_driver():
-    service = Service('./chromedriver-win32/chromedriver-win32/chromedriver.exe')  # Adjust the path to your ChromeDriver
+    service = Service('./chromedriver-win32/chromedriver.exe')  # Adjust the path to your ChromeDriver
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")  # Ensure headless is being added as an argument
     options.add_argument("--disable-gpu")  # This option is often recommended to run headless
